@@ -1,6 +1,46 @@
+
+
+.navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px 0px 0px;
+
+}
+.gmail{
+    float:left;
+    padding:10px;
+}
+.images{
+    float:left;
+    padding:10px;
+}
+.apps{
+    float:left;
+    padding:10px;
+}
+.account{
+    float:left;
+    padding:10px;
+}
+
 .logo {
     display: block;
     margin: auto;
-    padding: 70px 0;
+    padding: 250px 0 50px;
 
+}
+
+.search-border{
+    border-style: solid;
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border-bottom-left-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border-color: gray;
+    width: 30%;
+    margin:auto;
+}
+.search{
+    padding:10px;
 }
