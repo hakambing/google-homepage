@@ -5,6 +5,7 @@
     top: 0;
     right: 0;
     padding: 15px 0px 0px;
+    
 
 }
 .gmail{
@@ -43,4 +44,22 @@
 }
 .search{
     padding:10px;
+}
+
+.buttons{
+    text-align: center;
+    padding-top: 25px;
+   
+}
+.btn{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size:14px;
+    font-family: arial, sans-serif;
+    padding: 0 16px;
+    text-align: center;
+    cursor: pointer;
+    height: 36px;
 }
