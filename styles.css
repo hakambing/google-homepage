@@ -1,28 +1,16 @@
 
-
 .navbar {
+    list-style-type: none;
+    margin:0;
+    padding:0;
     position: absolute;
-    top: 0;
-    right: 0;
-    padding: 15px 0px 0px;
-    
+    top: 20px;
+    right: 20px;
+}
 
-}
-.gmail{
-    float:left;
-    padding:10px;
-}
-.images{
-    float:left;
-    padding:10px;
-}
-.apps{
-    float:left;
-    padding:10px;
-}
-.account{
-    float:left;
-    padding:10px;
+li {
+    float: left;
+    padding: 8px;
 }
 
 .logo {
@@ -62,4 +50,31 @@
     text-align: center;
     cursor: pointer;
     height: 36px;
+}
+
+.bottomnav{
+    background-color: #222;
+}
+.bottomleftnav{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.bottomrightnav{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    font-family: Arial, Helvetica, sans-serif;
 }
